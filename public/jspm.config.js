@@ -1,4 +1,5 @@
 SystemJS.config({
+  trace: true,
   transpiler: "plugin-babel",
   packages: {
     "jspm-react-component": {},
@@ -51,10 +52,18 @@ SystemJS.config({
     "react": "npm:react@0.14.8",
     "react-dom": "npm:react-dom@0.14.8",
     "stream": "github:jspm/nodelibs-stream@0.2.0-alpha",
+    "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@0.5.8",
     "tty": "github:jspm/nodelibs-tty@0.2.0-alpha",
     "util": "github:jspm/nodelibs-util@0.2.0-alpha"
   },
   packages: {
+    "github:capaj/systemjs-hot-reloader@0.5.8": {
+      "map": {
+        "debug": "npm:debug@2.2.0",
+        "socket.io-client": "github:socketio/socket.io-client@1.4.6",
+        "weakee": "npm:weakee@1.0.0"
+      }
+    },
     "github:jspm/nodelibs-buffer@0.2.0-alpha": {
       "map": {
         "buffer-browserify": "npm:buffer@4.6.0"
