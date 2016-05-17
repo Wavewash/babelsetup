@@ -7,9 +7,8 @@ npm install -g chokidar-socket-emitter
 ##process to run
 jspm install
 
-#cd into frontbutt
-##in one tab run:
+##cd into public in one tab run:
 serve
 
-##in another tab run
+in another tab run:
 chokidar-socket-emitter
