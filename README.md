@@ -1,14 +1,14 @@
 # babelsetup
 ##Necessary Installs before you can install
-npm install -g jspm@beta
-npm install -g serve
-npm install -g chokidar-socket-emitter
+- npm install -g jspm@beta
+- npm install -g serve
+- npm install -g chokidar-socket-emitter
 
 ##process to run
-jspm install
+- jspm install
 
 ##cd into public in one tab run:
-serve
+- serve
 
 in another tab run:
-chokidar-socket-emitter
+- chokidar-socket-emitter
